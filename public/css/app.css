@@ -1,0 +1,38 @@
+.fullscreen-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #343a40;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullscreen-menu .row a {
+  color: white !important;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: background-color 0.3s;
+}
+.fullscreen-menu .row a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+.close-menu span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=app.css.map */
