@@ -19,9 +19,9 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="{{ route('inicio') }}" class="text-uppercase text-dark text-decoration-none">ES</a>
+                <a href="{{ route('index') }}" class="text-uppercase text-dark text-decoration-none">EN</a>
                 <a class="navbar-brand text-center fw-bold mx-auto" href="#">
-                    <span style="font-size: 1.8rem; font-family: serif;">The Conquistador Hotel</span>
+                    <span style="font-size: 1.8rem; font-family: serif;">Hotel El Conquistador</span>
                 </a>
                 <div class="d-flex align-items-center text-end">
                     <div class="me-3 d-none d-md-block text-center">
@@ -41,15 +41,16 @@
                 </button>
 
                 <nav class="row text-center justify-content-center">
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Inicio</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Alojamiento</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Restaurante</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Spa</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Yoga</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Oxígeno</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Actividades</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Nosotros</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Contacto</a>
+                    <nav class="row text-center justify-content-center">
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Inicio</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Alojamiento</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Restaurante</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Spa</a>
+                        <a href="{{ route('nosotros') }}"
+                            class="col-12 text-decoration-none text-dark py-2">Nosotros</a>
+                        <a href="{{ route('contacto') }}"
+                            class="col-12 text-decoration-none text-dark py-2">Contacto</a>
+                    </nav>
                 </nav>
             </div>
         </div>
@@ -60,12 +61,8 @@
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Inicio</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Alojamiento</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Restaurante</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Spa</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Yoga</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Oxígeno</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Actividades</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Filosofía</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Destino</a>
+                    <a href="{{ route('nosotros') }}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Nosotros</a>
+                    <a href="{{ route('contacto')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Contacto</a>
                 </nav>
             </div>
         </div>
