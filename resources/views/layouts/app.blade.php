@@ -50,6 +50,8 @@
                     <a href="#" class="col-12 text-decoration-none text-dark py-2">Actividades</a>
                     <a href="#" class="col-12 text-decoration-none text-dark py-2">Filosofía</a>
                     <a href="#" class="col-12 text-decoration-none text-dark py-2">Destino</a>
+                    <a href="{{url('./nosotros')}}" class="col-12 text-decoration-none text-dark py-2">Nosotros</a>
+                    <a href="{{url('./contacto')}}" class="col-12 text-decoration-none text-dark py-2">Contacto</a>
                 </nav>
             </div>
         </div>
@@ -66,6 +68,8 @@
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Actividades</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Filosofía</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Destino</a>
+                    <a href="{{url('./nosotros')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Nosotros</a>
+                    <a href="{{url('./contacto')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Contacto</a>
                 </nav>
             </div>
         </div>
