@@ -9,14 +9,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/nosotros', function () {
-    return view('nosotros');
-})->name('nosotros');
-
-Route::get('/contacto', function () {
-    return view('contacto');
-})->name('contacto');
-
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
@@ -26,4 +18,9 @@ Route::get('Hotel-Conquistador', [RutasController::class, 'inicio'])->name('inic
 //Vistas en español
 Route::get('nosotros', [RutasController::class, 'nosotros'])->name('nosotros');
 
-Route::get('contacto', [RutasController::class, 'contacto'])->name('contacto');
+Route::get('contactenos', [RutasController::class, 'contactenos'])->name('contactenos');
+
+//Vistas en ingles
+Route::get('contact', [RutasController::class, 'contact'])->name('contact');
+
+Route::get('about', [RutasController::class, 'about'])->name('about');

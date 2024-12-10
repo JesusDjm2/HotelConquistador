@@ -46,10 +46,15 @@
                         <a href="#" class="col-12 text-decoration-none text-dark py-2">Alojamiento</a>
                         <a href="#" class="col-12 text-decoration-none text-dark py-2">Restaurante</a>
                         <a href="#" class="col-12 text-decoration-none text-dark py-2">Spa</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Yoga</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Oxígeno</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Actividades</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Filosofía</a>
+                        <a href="#" class="col-12 text-decoration-none text-dark py-2">Destino</a>
                         <a href="{{ route('nosotros') }}"
                             class="col-12 text-decoration-none text-dark py-2">Nosotros</a>
-                        <a href="{{ route('contacto') }}"
-                            class="col-12 text-decoration-none text-dark py-2">Contacto</a>
+                        <a href="{{ route('contactenos') }}"
+                            class="col-12 text-decoration-none text-dark py-2">Contactenos</a>
                     </nav>
                 </nav>
             </div>
@@ -61,8 +66,14 @@
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Inicio</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Alojamiento</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Restaurante</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Spa</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Yoga</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Oxígeno</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Actividades</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Filosofía</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Destino</a>
                     <a href="{{ route('nosotros') }}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Nosotros</a>
-                    <a href="{{ route('contacto')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Contacto</a>
+                    <a href="{{ route('contactenos')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Contactenos</a>
                 </nav>
             </div>
         </div>

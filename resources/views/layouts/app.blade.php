@@ -41,15 +41,18 @@
                 </button>
 
                 <nav class="row text-center justify-content-center">
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Inicio</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Alojamiento</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Restaurante</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Home</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Accommodation</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Restaurant</a>
                     <a href="#" class="col-12 text-decoration-none text-dark py-2">Spa</a>
                     <a href="#" class="col-12 text-decoration-none text-dark py-2">Yoga</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Oxígeno</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Actividades</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Filosofía</a>
-                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Destino</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Oxygen</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Activities</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Philosophy</a>
+                    <a href="#" class="col-12 text-decoration-none text-dark py-2">Destination</a>
+                    <a href="{{ route('about') }}" class="col-12 text-decoration-none text-dark py-2">About Us</a>
+                    <a href="{{ route('contact') }}"
+                        class="col-12 text-decoration-none text-dark py-2">Contact</a>
                 </nav>
             </div>
         </div>
@@ -57,17 +60,19 @@
         <div class="bg-light py-2 responsive d-none d-md-block">
             <div class="container">
                 <nav class="row text-center justify-content-center">
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Inicio</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Alojamiento</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Restaurante</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Home</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Accommodation</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Restaurant</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Spa</a>
                     <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Yoga</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Oxígeno</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Actividades</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Filosofía</a>
-                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Destino</a>
-                    <a href="{{url('./nosotros')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Nosotros</a>
-                    <a href="{{url('./contacto')}}" class="col-6 col-md-auto text-decoration-none text-dark py-2">Contacto</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Oxygen</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Activities</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Philosophy</a>
+                    <a href="#" class="col-6 col-md-auto text-decoration-none text-dark py-2">Destination</a>
+                    <a href="{{ route('about') }}"
+                        class="col-6 col-md-auto text-decoration-none text-dark py-2">About Us</a>
+                    <a href="{{ route('contact') }}"
+                        class="col-6 col-md-auto text-decoration-none text-dark py-2">Contact</a>
                 </nav>
             </div>
         </div>
@@ -99,7 +104,7 @@
         const closeMenuBtn = document.querySelector('.close-menu');
         const menuOptions = document.querySelector('#menuOptions');
 
-        closeMenuBtn.addEventListener('click', function() {
+        closeMenuBtn.addEventListener('click', function () {
             const collapseInstance = new bootstrap.Collapse(menuOptions, {
                 toggle: false
             });
